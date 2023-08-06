@@ -1,0 +1,16 @@
+{
+  "title": "jp_kana_to_enter",
+  "rules": [ 
+    {
+      "description": "かな を Backspace に変換",
+      "manipulators": [
+        { "type": "basic",
+          "from": { "key_code": "japanese_kana" },
+          "to": [
+            { "key_code": "delete_or_backspace" }
+          ]
+        }
+       ]
+     }
+  ]
+}

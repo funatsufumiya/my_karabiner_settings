@@ -1,0 +1,21 @@
+{
+  "title": "ctrl_mouse_to_scroll",
+  "rules": [ 
+{
+  "description": "Change control + mouse motion to scroll wheel (rev 1)",
+  "available_since": "12.3.0",
+  "manipulators": [
+    {
+      "type": "mouse_motion_to_scroll",
+      "from": {
+        "modifiers": {
+          "mandatory": [
+            "control"
+          ]
+        }
+      }
+    }
+  ]
+}
+  ]
+}

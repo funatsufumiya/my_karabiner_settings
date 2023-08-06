@@ -1,0 +1,16 @@
+{
+  "title": "jp_eisuu_to_enter",
+  "rules": [ 
+    {
+      "description": "英数 を Enter に変換",
+      "manipulators": [
+        { "type": "basic",
+          "from": { "key_code": "japanese_eisuu" },
+          "to": [
+            { "key_code": "return_or_enter" }
+          ]
+        }
+       ]
+     }
+  ]
+}

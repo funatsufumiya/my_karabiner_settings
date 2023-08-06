@@ -1,0 +1,18 @@
+{
+  "title": "ctrl-n_to_enter",
+  "rules": [ 
+    {
+      "description": "Ctrl-N を Enter に変換",
+      "manipulators": [
+        { "type": "basic",
+          "from": { "key_code": "n",
+            "modifiers": { "mandatory": [ "control" ] }
+                  },
+           "to": [
+             { "key_code": "return_or_enter" }
+                 ]
+        }
+       ]
+     }
+  ]
+}

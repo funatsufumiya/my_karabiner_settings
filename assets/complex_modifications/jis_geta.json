@@ -2885,9 +2885,6 @@
               "key_code": "backslash"
             },
             {
-              "key_code": "return_or_enter"
-            },
-            {
               "key_code": "left_arrow"
             }
           ],
@@ -4776,9 +4773,6 @@
               "modifiers": [
                 "shift"
               ]
-            },
-            {
-              "key_code": "return_or_enter"
             },
             {
               "key_code": "left_arrow"
